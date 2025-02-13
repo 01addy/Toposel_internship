@@ -1,5 +1,6 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"; // Importing the Mongoose library for MongoDB interaction
 
+// Function to establish a connection to the MongoDB database
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
