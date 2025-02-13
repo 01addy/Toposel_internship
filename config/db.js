@@ -1,3 +1,5 @@
+//The db.js file is responsible for establishing a connection to the MongoDB database using Mongoose.
+
 import mongoose from "mongoose"; // Importing the Mongoose library for MongoDB interaction
 
 // Function to establish a connection to the MongoDB database
