@@ -1,3 +1,5 @@
+// The authController.js file contains functions to manage user authentication, including registration, login, and searching users.
+
 import bcrypt from "bcryptjs";  //Library for Hashing Password
 import jwt from "jsonwebtoken"; //Library for generating JSON Web Tokens (JWT)
 import { sendEmail} from "../utils/sendEmail.js"; //Utility function used for sending emails
