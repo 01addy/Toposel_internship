@@ -12,7 +12,7 @@ router.post("/signup", registerUser);
 // Login route - Allows users to authenticate
 router.post("/login", loginUser);
 
-/ Search route - Allows searching for a user, protected by authentication middleware
+// Search route - Allows searching for a user, protected by authentication middleware
 router.post("/search", authMiddleware, searchUser);
 
 export default router;
