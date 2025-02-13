@@ -5,7 +5,7 @@ This is an Express.js-based backend for user authentication and management. It a
 ---
 
 ## Features
-- **User Registration** (`POST /api/auth/signup`)  <!-- Registration Confimation Email Sent on the entered email as a confimation --> 
+- **User Registration** (`POST /api/auth/signup`)  //Registration Confimation Email Sent on the entered email as a confimation 
 - **User Login** (`POST /api/auth/login`)  
 - **Search User** (`POST /api/auth/search`) *(Protected by JWT)*  
 
@@ -93,7 +93,7 @@ Authorization: Bearer <JWT_TOKEN>
 **Body (JSON):**
 ```json
 {
-  "query": "testuser"  <!--or "testuser@example.com"-->
+  "query": "testuser"  // or "testuser@example.com"
 }
 ```
 **Response (JSON):**
