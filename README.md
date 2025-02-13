@@ -144,4 +144,3 @@ Toposel_internship/
 ## Important Note for Evaluator  
 For security reasons, the `MONGO_URI`, `EMAIL_USER`, and `EMAIL_PASS` have not been shared in the repository. However, if necessary for evaluation purposes, I am open to providing these details upon request.
 
-```
